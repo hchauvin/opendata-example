@@ -1,0 +1,22 @@
+# Test Spark cluster
+version: "3.0"
+services:
+  spark-master:
+    image: opendata-spark:latest
+    ports:
+      - 7077:7077
+    environment:
+      SPARK_NO_DAEMONIZE: 0
+    volumes:
+      - ../target/scala-2.12/opendata-assembly-0.1.jar:/spark/jars/opendata.jar
+    command:
+      - /spark/sbin/start-master.sh
+  spark-slave:
+    image: opendata-spark:latest
+    environment:
+      SPARK_NO_DAEMONIZE: 0
+    volumes:
+      - ../target/scala-2.12/opendata-assembly-0.1.jar:/spark/jars/opendata.jar
+    command:
+      - /spark/sbin/start-slave.sh
+      - spark-master:7077

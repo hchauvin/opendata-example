@@ -1,0 +1,103 @@
+{
+  "acronym": "D\u00e9c\u00e8s",
+  "archived": null,
+  "badges": [],
+  "created_at": "2019-12-05T13:09:59.495000",
+  "deleted": null,
+  "description": "L'Insee re\u00e7oit des communes les d\u00e9c\u00e8s enregistr\u00e9s.\nSelon l'avis de la Cada du 17 mai 2019 : Le fichier des personnes d\u00e9c\u00e9d\u00e9es \u00e9tant \u00e9tabli par l\u2019INSEE dans le cadre de ses missions de service public, il constitue, \u00e0 ce titre, un document administratif. Ne contenant pas de mentions relatives \u00e0 la vie priv\u00e9e, il est communicable \u00e0 toute personne qui en fait la demande et publiable en ligne en application des dispositions des articles L311-9 et L312-1-1 du code des relations entre le public et l\u2019administration, sans occultation puisqu\u2019il ne comporte pas de donn\u00e9es personnelles. Il est \u00e9galement r\u00e9utilisable dans les conditions pr\u00e9vues par le titre II de ce livre, les finalit\u00e9s d\u2019un traitement ne faisant pas obstacle \u00e0 la r\u00e9utilisation des informations publiques dans les conditions pr\u00e9vues par le code des relations entre le public et l\u2019administration.\n\nLes fichiers des personnes d\u00e9c\u00e9d\u00e9es sont disponibles depuis 1970. Pour les ann\u00e9es 1970 \u00e0 l'ann\u00e9e pr\u00e9c\u00e9dent l'ann\u00e9e en cours, les fichiers sont annuels. Pour l'ann\u00e9e en cours, les fichiers sont mensuels et trimestriels.\nChaque fichier mensuel comprend tous les d\u00e9c\u00e8s port\u00e9s \u00e0 la connaissance de l\u2019Insee sur la p\u00e9riode ; il peut contenir des donn\u00e9es relatives \u00e0 un d\u00e9c\u00e8s survenu ant\u00e9rieurement si l\u2019information est parvenue tardivement \u00e0 l\u2019Insee. Les fichiers trimestriels concat\u00e8nent les trois fichiers mensuels et les fichiers annuels l\u2019ensemble des fichiers de l\u2019ann\u00e9e. \n\n_L\u2019Insee ne peut garantir que les fichiers des personnes d\u00e9c\u00e9d\u00e9es sont exempts d\u2019omissions ou d\u2019erreurs ; il ne saurait encourir aucune responsabilit\u00e9 quant \u00e0 l\u2019utilisation faite des informations contenues dans ces fichiers.\nEn particulier, les informations contenues dans ces fichiers ne peuvent en aucun cas \u00eatre utilis\u00e9es dans un but de certification du statut vital des personnes_.\n\n**Contenu du fichier**\nChaque enregistrement est relatif \u00e0 une personne d\u00e9c\u00e9d\u00e9e et comporte les zones suivantes :\n- le nom de famille\n- les pr\u00e9noms\n- le sexe\n- la date de naissance\n- le code du lieu de naissance\n- la localit\u00e9 de naissance en clair (pour les personnes n\u00e9es en France ou dans les DOM/TOM/COM)\n- le libell\u00e9 de pays de naissance en clair (pour les personnes n\u00e9es \u00e0 l'\u00e9tranger)\n- la date du d\u00e9c\u00e8s\n- le code du lieu de d\u00e9c\u00e8s\n- le num\u00e9ro d'acte de d\u00e9c\u00e8s\u00a0\n\n\n\n**Dessin d'enregistrement**\nLe fichier est fourni au format txt\n\n_Nom et Pr\u00e9nom_   - Longueur : 80 - Position : 1-80  - Type : Alphanum\u00e9rique\n       La forme g\u00e9n\u00e9rale est NOM*PRENOMS\n\n_Sexe_              - Longueur : 1  - Position : 81    - Type : Num\u00e9rique\n       1 = Masculin; 2 = f\u00e9minin\n\n_Date de naissance_ - Longueur : 8  - Position : 82-89 - Type : Num\u00e9rique\n    Forme : AAAAMMJJ - AAAA=0000 si ann\u00e9e inconnue; MM=00 si mois inconnu; JJ=00 si jour inconnu\n\n_Code du lieu de naissance_ - Longueur : 5  - Position : 90-94 - Type : Alphanum\u00e9rique\n    Code Officiel G\u00e9ographique en vigueur au moment de la prise en compte du d\u00e9c\u00e8s\n\n_Commune de naissance en clair_ - Longueur : 30  - Position : 95-124 - Type : Alphanum\u00e9rique\n\n_DOM/TOM/COM/Pays de naissance en clair_ - Longueur : 30  - Position : 125-154 - Type : Alphanum\u00e9rique\n\n_Date de d\u00e9c\u00e8s_         - Longueur : 8  - Position : 155-162 - Type : Num\u00e9rique\n    Forme : AAAAMMJJ - AAAA=0000 si ann\u00e9e inconnue; MM=00 si mois inconnu; JJ=00 si jour inconnu\n\n_Code du lieu de d\u00e9c\u00e8s_ - Longueur : 5  - Position : 163-167 - Type : Alphanum\u00e9rique\n    Code Officiel G\u00e9ographique en vigueur au moment de la prise en compte du d\u00e9c\u00e8s\n\n_Num\u00e9ro d'acte de d\u00e9c\u00e8s_ - Longueur : 9  - Position : 168-176 - Type : Alphanum\u00e9rique\n                 ",
+  "extras": {},
+  "frequency": "monthly",
+  "frequency_date": "2020-04-15T00:00:00",
+  "id": "5de8f397634f4164071119c5",
+  "last_modified": "2020-03-10T15:17:57.635000",
+  "last_update": "2020-03-10T15:15:26",
+  "license": "lov2",
+  "metrics": {
+    "discussions": 28,
+    "followers": 13,
+    "issues": 0,
+    "reuses": 9,
+    "views": 49257
+  },
+  "organization": {
+    "acronym": null,
+    "class": "Organization",
+    "id": "534fff81a3a7292c64a77e5c",
+    "logo": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-original.jpg",
+    "logo_thumbnail": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg",
+    "name": "Institut National de la Statistique et des Etudes Economiques (Insee)",
+    "page": "https://www.data.gouv.fr/fr/organizations/institut-national-de-la-statistique-et-des-etudes-economiques-insee/",
+    "slug": "institut-national-de-la-statistique-et-des-etudes-economiques-insee",
+    "uri": "https://www.data.gouv.fr/api/1/organizations/institut-national-de-la-statistique-et-des-etudes-economiques-insee/"
+  },
+  "owner": null,
+  "page": "https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/",
+  "private": false,
+  "resources": [
+    {
+      "checksum": {
+        "type": "sha1",
+        "value": "11df35f796a0781b87a0564208a9e63897a34388"
+      },
+      "created_at": "2020-03-10T15:15:26.053000",
+      "description": null,
+      "extras": {},
+      "filesize": 10741400,
+      "filetype": "file",
+      "format": "txt",
+      "id": "d0ff63f9-455f-4766-b7cf-58de45dfc8c4",
+      "last_modified": "2020-03-10T15:15:30.001000",
+      "latest": "https://www.data.gouv.fr/fr/datasets/r/d0ff63f9-455f-4766-b7cf-58de45dfc8c4",
+      "metrics": {
+        "views": 0
+      },
+      "mime": "text/plain",
+      "preview_url": null,
+      "published": "2020-03-10T15:15:26",
+      "title": "deces-2020-m02.txt",
+      "type": "main",
+      "url": "https://static.data.gouv.fr/resources/fichier-des-personnes-decedees/20200310-151524/deces-2020-m02.txt"
+    },
+    {
+      "checksum": {
+        "type": "sha1",
+        "value": "d768352ab221419da75d01f93fb25ca0e8ed4e2c"
+      },
+      "created_at": "2020-02-07T11:36:57.769000",
+      "description": null,
+      "extras": {},
+      "filesize": 12116802,
+      "filetype": "file",
+      "format": "txt",
+      "id": "527ba187-2dbc-4c6a-b599-835e728d606f",
+      "last_modified": "2020-02-07T11:37:03.331000",
+      "latest": "https://www.data.gouv.fr/fr/datasets/r/527ba187-2dbc-4c6a-b599-835e728d606f",
+      "metrics": {
+        "views": 0
+      },
+      "mime": "text/plain",
+      "preview_url": null,
+      "published": "2020-02-07T11:36:57",
+      "title": "deces-2020-m01.txt",
+      "type": "main",
+      "url": "https://static.data.gouv.fr/resources/fichier-des-personnes-decedees/20200207-113656/deces-2020-m01.txt"
+    }
+  ],
+  "slug": "fichier-des-personnes-decedees",
+  "spatial": {
+    "geom": null,
+    "granularity": "other",
+    "zones": [
+      "country:fr"
+    ]
+  },
+  "tags": [
+    "deces"
+  ],
+  "temporal_coverage": {
+    "end": "2020-12-31",
+    "start": "1970-01-01"
+  },
+  "title": "Fichier des personnes d\u00e9c\u00e9d\u00e9es",
+  "uri": "https://www.data.gouv.fr/api/1/datasets/fichier-des-personnes-decedees/"
+}
