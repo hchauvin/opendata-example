@@ -1,15 +1,17 @@
-# Spark data source example: connecting to an open-data API
+# ![Spark](./doc/apache_spark_logo.svg) data source example: connecting to an open-data API
 
-[![CircleCI](https://circleci.com/gh/hchauvin/opendata-example/tree/master.svg?style=svg)](https://circleci.com/gh/hchauvin/opendata-example/tree/master) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CircleCI](https://circleci.com/gh/hchauvin/opendata-example/tree/master.svg?style=svg)](https://circleci.com/gh/hchauvin/opendata-example/tree/master) [![scala: 2.12](https://img.shields.io/badge/scala-2.12-red.svg)](https://opensource.org/licenses/MIT) [![spark: 3.0](https://img.shields.io/badge/spark-3.0-red.svg)](https://opensource.org/licenses/MIT) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repo shows how Spark (3.0) can be leveraged to read open data accessible from remote APIs.
 
 The death registry published by the French government is taken as an example. It
 contains in total more than 30 million death events since 1970.
 
-The retrieval is performed through the new data source SPI introduced in Spark 3.0.
-Using the data source SPI for extracting data from remote APIs gives cleaner, more reusable
-code.  It also leverages Spark for distributed fetching and parsing.
+![age_dist](./doc/age_dist.svg)
+
+The retrieval is performed using the new data source SPI introduced in Spark 3.0.
+The data source SPI for extracting data from remote APIs can give cleaner, more reusable
+code than _ad hoc_ processing and is not necessarily more difficult to master.
 
 ## Usage in a notebook or in a script
 
