@@ -1,5 +1,7 @@
 # Spark data source example: connecting to an open-data API
 
+[![CircleCI](https://circleci.com/gh/hchauvin/opendata-example/tree/master.svg?style=svg)](https://circleci.com/gh/hchauvin/opendata-example/tree/master) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repo shows how Spark (3.0) can be leveraged to read open data accessible from remote APIs.
 
 The death registry published by the French government is taken as an example. It
@@ -23,7 +25,7 @@ sbt assembly
 ./tests/cluster-test.sh
 ```
 
-There is also an example [polynote](https://polynote.org/) notebook, [./tests/SparkTest.ipynb].
+There is also an example [polynote](https://polynote.org/) notebook, [./tests/SparkTest.ipynb]().
 
 ## Development
 
