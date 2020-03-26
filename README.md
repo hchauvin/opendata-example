@@ -1,6 +1,6 @@
-# ![Spark](./doc/apache_spark_logo.svg) data source example: connecting to an open-data API
+# <img alt="Spark" src = "https://github.com/hchauvin/opendata-example/raw/master/doc/apache_spark_logo.svg?sanitize=true" width="100" /> data source example: connecting to an open-data API
 
-[![CircleCI](https://circleci.com/gh/hchauvin/opendata-example/tree/master.svg?style=svg)](https://circleci.com/gh/hchauvin/opendata-example/tree/master) [![scala: 2.12](https://img.shields.io/badge/scala-2.12-red.svg)](https://opensource.org/licenses/MIT) [![spark: 3.0](https://img.shields.io/badge/spark-3.0-red.svg)](https://opensource.org/licenses/MIT) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CircleCI](https://circleci.com/gh/hchauvin/opendata-example/tree/master.svg?style=svg)](https://circleci.com/gh/hchauvin/opendata-example/tree/master) [![scala: 2.12](https://img.shields.io/badge/scala-2.12-red.svg)](https://opensource.org/licenses/MIT) [![spark: 3.0](https://img.shields.io/badge/spark-3.0-orange.svg)](https://opensource.org/licenses/MIT) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repo shows how Spark (3.0) can be leveraged to read open data accessible from remote APIs.
 
@@ -49,3 +49,7 @@ Code formatting:
 ```
 sbt scalafmtAll
 ```
+
+## License
+
+`opendata-example` is licensed under [The MIT License](./LICENSE).
